@@ -1,0 +1,22 @@
+.txt{
+    min-height:  90vh;
+    padding-top: 0;
+    margin-top: 40px;
+}
+.text p{
+    font-size: 23px;
+}
+.text h1{
+    font-size: 40px;
+}
+.text1{
+    width:588px ;
+    border-bottom: 3px solid #d8d7d799;
+    padding: 9px;
+}
+.inputs{
+    width: 600px;
+    padding:20px 0px;
+}
+
+

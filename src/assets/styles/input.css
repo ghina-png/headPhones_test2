@@ -1,0 +1,53 @@
+.input-box,
+.text-box{
+    display: flex;
+    flex-direction: column; 
+    gap: 6px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.input-box .input,
+.text-box textarea{
+    font-size: 1.3rem;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid var(--b);
+    outline: none;
+}
+
+.input-box .input{
+    width: 255px;
+}
+.text-box textarea{
+width: 580px;
+height: 70px;
+resize: none;
+overflow: auto;
+}
+
+.input-box .inputScond{
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #d8d7d799;
+    border-radius: 0;
+}
+
+.input-box .inputpass{
+     border: none;
+    width: 100%;
+    border-radius: 0;
+}
+
+.check-box{
+    display: flex;
+    gap: 10px;
+    font-size: 1.4rem;
+    color: var(--shd);
+}
+.check-box input[type="checkbox"]{
+width: 20px;
+}
+
+
+

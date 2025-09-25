@@ -1,0 +1,13 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tim{
+    background-color: var(--w);
+    width: 150px;
+    padding: 3px 8px;
+    margin: 8px;
+}

@@ -1,0 +1,43 @@
+@media(max-width:828px){
+
+ .header2 .nav{
+     display: none;
+   opacity: 0;
+ }
+
+ .foter{
+    flex-direction: column;
+ }
+ .foter nav
+ ,.foter1{
+    flex-direction: column;
+ }
+
+ .heros .right{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.branimg{
+    display: none;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.collection{
+    flex-direction: column;
+    padding: 3px;
+}
+
+.collection .col .headphpne{
+    width: 400px;
+    height: 400px;
+}
+
+}
+
+/* @media(min-width:738px){
+
+} */

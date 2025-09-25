@@ -1,0 +1,85 @@
+.header1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: opacity 0.3s ease;
+    padding: 14px;
+    z-index: 999;
+}
+.hidden.header1{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.brands{
+    height: 25vh;
+}
+
+.collection{
+    padding: 3px 200px;
+}
+
+.collection h2{
+   text-align: left !important;
+   font-size: 2.4rem;
+}
+
+.collection .col .headphpne{
+    width: 540px;
+    height: 75vh;
+    position: relative;
+    background-color: #d8d7d799;
+    align-items: center;
+}
+
+.collection .col .headphpne img{
+    width: 100%;
+}
+
+.collection .col .headphpne1{
+    width: 540px;
+    height: 75vh;
+}
+
+.collection .col .headphpne1 .hp1{
+    width: 100%; 
+    height: 36.5vh;
+    padding: 0px 20px;
+    position: relative;
+    background-color: #d8d7d799;
+}
+
+.collection .col .headphpne1 .hp1 .imgg{
+    width: 270px;
+    height: 100%;
+
+}
+.collection .col .headphpne1 .hp1 .imgg img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    background-color: white;
+}
+
+.text .title{
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  font-size:1.7rem ;
+  font-weight: 600;
+}
+.text .coll{
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 1px solid ;
+}
+
+.more{
+    padding:10px;
+}
+

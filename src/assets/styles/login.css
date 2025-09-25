@@ -1,0 +1,60 @@
+.login{
+    min-height: 100vh;
+}
+
+.image{
+    width: 50%;
+}
+.image img{
+    width: 100%;
+}
+
+.form{
+    width: 50%;
+}
+
+form {
+    width:400px ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form h1{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+form p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+form p span{
+    font-weight: 600;
+    cursor: pointer;
+}
+.sign{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.sign a{
+    text-align: center;
+}
+.eye{
+    width: 100%;
+    border-bottom: 2px solid #d8d7d799;
+    
+}
+
+.eye .span{
+  color: var(--shd);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.cha a{
+    color: var(--b);
+    font-size: 1.3rem;
+}

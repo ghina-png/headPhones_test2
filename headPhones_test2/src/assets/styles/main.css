@@ -1,0 +1,182 @@
+@charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Content:wght@400;700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tajawal", sans-serif;
+    text-transform: capitalize;
+}
+
+
+html{
+    direction: ltr;
+}
+
+
+:root{
+    --main: #ffab00;
+    --main2:#fff4cc;
+    --sub: #6c7275;
+    --w: #fff;
+    --b: #000;
+    --shd: #00000088;
+    --value: 8px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.w100{
+    width: 100%;
+}
+
+.h100{
+    height: 100%;
+}
+
+.f-cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.f-bet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f-ard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.f-evn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.f-col{
+    flex-direction: column;
+}
+.p0-5{
+    padding: 0.5rem;
+}
+.p1{
+    padding: 1rem;
+}
+.p1-5{
+    padding: 1.5rem;
+}
+.p2{
+    padding: 2rem;
+}
+.p2-5{
+    padding: 2.5rem;
+}
+.p3{
+    padding: 3rem;
+}
+.p4{
+    padding: 4rem;
+}
+.g0-5{
+    gap: 0.5rem;
+}
+.g1{
+    gap: 1rem;
+}
+.g1-5{
+    gap: 1.5rem;
+}
+.g2{
+    gap: 2rem;
+}
+.g2-5{
+    gap: 2.5rem;
+}
+.g3{
+    gap: 3rem;
+}
+.g4{
+    gap: 4rem;
+}
+.r0-5{
+    border-radius: 0.5rem;
+}
+.r1{
+    border-radius: 1rem;
+}
+.r1-5{
+    border-radius: 1.5rem;
+}
+.r2{
+    border-radius: 2rem;
+}
+.r2-5{
+    border-radius: 2.5rem;
+}
+.r3{
+    border-radius: 3rem;
+}
+.r4{
+    border-radius: 4rem;
+}
+.r50{
+    border-radius: 50%;
+}
+.txt-w{
+    color: #f1f1f1;
+}
+.txt-b{
+    color: #1f1f1f;
+}
+.txt-main{
+    color: var(--main);
+}
+.txt-sub{
+    color: var(--sub);
+}
+.bg-w{
+    background-color: var(--w);
+}
+.bg-b{
+    background-color: var(--b);
+}
+.bg-main{
+    background-color: var(--main);
+}
+.bg-sub{
+    background-color: var(--sub);
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.btn{
+    min-width: 100px;
+    display: inline-block;
+    padding: 6px 22px;
+    font-size: 1.2rem;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid var(--main);
+    color: var(--main);
+    background-color: var(--w);
+    border-radius: 16px;
+}
+
+.btn:hover{
+    color: var(--w);
+    background-color: var(--main);
+    border: 2px solid var(--w);
+    transition: .5s;
+}
