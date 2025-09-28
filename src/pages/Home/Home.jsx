@@ -19,7 +19,7 @@ const Home = () => {
       <HeaderTop />
       <Herosection />
       <Brands />
-      {/* <Arrivals /> */}
+      <Arrivals />
       <Collection />
       <Seller />
       <SecondSection />
