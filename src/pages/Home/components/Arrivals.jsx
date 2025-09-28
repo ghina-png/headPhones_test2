@@ -46,7 +46,7 @@ const Arrivals = () => {
         spaceBetween={20}
         slidesPerView={3}
         pagination={{ clickable: true }}
-        style={{ padding: "20px", height: "700px" }}
+        style={{ padding: "20px", height: "600px" }}
       >
         {products.map((product, index) => (
           <SwiperSlide key={index}>
