@@ -39,10 +39,10 @@ const Header = ({isHome}) => {
         <h1>headPhones</h1>
         <nav className="nav f-cen g2 ">
           <Link to="/" className="txt-b">Home</Link>
-          <Link to="/Products/" className="txt-b">Shop</Link>
-          <Link to="/Products/" className="txt-b">Products</Link>
-          <Link to="/Contact/" className="txt-b">Contact Us</Link>
-          <Link to="/About/" className="txt-b">About</Link>
+          <Link to="/products/" className="txt-b">Shop</Link>
+          <Link to="/products/" className="txt-b">Products</Link>
+          <Link to="/contact/" className="txt-b">Contact Us</Link>
+          <Link to="/about/" className="txt-b">About</Link>
         </nav>
         <div className="  f-cen txt-sub g1">
           <Searchicon  />
