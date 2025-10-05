@@ -50,7 +50,6 @@ const Header = ({isHome}) => {
           <Badicon />
            <Towicon  />
         </div>
-      {/* </div> */}
     </div>
   );
 };
